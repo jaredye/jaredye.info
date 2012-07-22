@@ -73,8 +73,12 @@ a {
 .desc {
     padding-left: 100px;
     padding-right: 10px;
+    color: #1813aa;
 }
 
+a:visited, a:hover, a:link, a:-webkit-any-link{
+    color: #1813aa;
+}
 
 .contact:hover .desc {
     background-color: #eaeaea;

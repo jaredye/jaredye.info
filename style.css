@@ -84,7 +84,7 @@ a:visited, a:hover, a:link, a:-webkit-any-link{
     background-color: #eaeaea;
 }
 
-.footer {
+.footer a{
     color: #eaeaea;
     position:fixed;
     font-size: 100px;
@@ -93,6 +93,15 @@ a:visited, a:hover, a:link, a:-webkit-any-link{
     padding-bottom: 10px;
     right: 0;
     bottom: 0;
+}
+
+#main-message {
+    color: #1813aa;
+    font-size: 100px;
+    padding-top: 40%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*.detail-img {*/

@@ -94,3 +94,11 @@ a:visited, a:hover, a:link, a:-webkit-any-link{
     right: 0;
     bottom: 0;
 }
+
+/*.detail-img {*/
+    /*position: fixed;*/
+    /*opacity: 0.2;*/
+    /*left:5%;*/
+    /*top:10%;*/
+    /*z-index: -1;*/
+/*}*/

@@ -21,7 +21,7 @@ body {
 
 .content {
     padding-top: 130px;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
     width: 735px;
 }
@@ -49,7 +49,7 @@ a {
 }
 
 .detail {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .contact .detail{
@@ -58,4 +58,22 @@ a {
 
 .contact:hover .detail{
     display: inline;
+}
+
+.detail {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    padding: 10px 7px;
+    background-color: #eaeaea;
+}
+
+.desc {
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+
+.contact:hover .desc {
+    background-color: #eaeaea;
 }

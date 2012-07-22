@@ -1,0 +1,61 @@
+body {
+    /*background-image: url('wood.png');*/
+    font-family: 'Microsoft Yahei', Tahoma, Arial, Helvetica, Simsun, STHeiti;
+    background-attachment:fixed;
+    /*min-width: 1176px;*/
+}
+
+.header{
+   /*margin-left: auto;*/
+   /*margin-right: 0px;*/
+    left: 45%;
+   width: 735px;
+   position: fixed;
+}
+
+.content p{
+    margin: 10px auto;
+    width: 735px;
+    overflow:visible;
+}
+
+.content {
+    padding-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 735px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact {
+    font-size: 100px;
+}
+
+.big-name {
+    font-size: 123px;
+
+    /*font-family: 'Swanky and Moo Moo', cursive;*/
+}
+
+.big-name a{
+    text-decoration: none;
+}
+
+.big-name {
+    color: #1813aa;
+}
+
+.detail {
+    font-size: 30px;
+}
+
+.contact .detail{
+    display: none;
+}
+
+.contact:hover .detail{
+    display: inline;
+}

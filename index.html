@@ -40,7 +40,8 @@
         <div class="page-header-content">
             <header>
                 <h1 class="fg-color-blueLight">我是Jared
-                    <small>士铭</small><small>程序员</small>
+                    <small>士铭</small>
+                    <small>程序员</small>
                 </h1>
             </header>
         </div>
@@ -80,19 +81,22 @@
                             要不那先交个朋友
                         </h2>
                         <ul class="contacts">
-                            <li class="command-button bg-color-grayDark">
-                                <a href="javascript:void(0);" class="fg-color-white" id="one-click">一键添加Facebook, 人人,
-                                    Twitter, QQ好友</a>
-                            </li>
+                            <!--<li class="command-button bg-color-grayDark">-->
+                            <!--<i class="icon-add place-left white"></i><a href="javascript:void(0);" class="fg-color-white" id="one-click">一键添加Facebook, 人人,-->
+                            <!--Twitter, QQ好友</a>-->
+                            <!--</li>-->
                             <li class="command-button fg-color-white bg-color-grayDark">
+                                <i class="icon-add place-left white"></i>
                                 <a href="http://weibo.com/fockall" target="_blank" class="fg-color-white">微博</a>
                             </li>
                             <li class="command-button fg-color-white bg-color-grayDark">
+                                <i class="icon-add place-left white"></i>
                                 <a href="http://www.renren.com/264618996/profile" class="fg-color-white"
                                    target="_blank">人人</a>
                             </li>
 
                             <li class="command-button fg-color-white bg-color-grayDark">
+                                <i class="icon-add place-left white"></i>
                                 <a href="https://www.facebook.com/yeshiming" class="fg-color-white" target="_blank">facebook</a>
                             </li>
                         </ul>
@@ -119,19 +123,20 @@
     $("button").click(function (e) {
         var $tar = $(e.currentTarget);
         $tar.text("谢谢O(∩_∩)O哈！，3秒后发请吃饭邮件");
-        setTimeout(function(){
+        setTimeout(function () {
             $tar.text("谢谢O(∩_∩)O哈！，2秒后发请吃饭邮件");
         }, 1000);
-        setTimeout(function(){
+        setTimeout(function () {
             $tar.text("谢谢O(∩_∩)O哈！，1秒后发请吃饭邮件");
         }, 2000);
-        setTimeout(function(){
-        window.location = "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=8MHFwMHHxcTHwsbBsIGB3pOfnQ";
+        setTimeout(function () {
+            window.location = "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=8MHFwMHHxcTHwsbBsIGB3pOfnQ";
         }, 3000);
     });
     $(".contacts li").click(function (e) {
 //        setTimeout(function () {
-            window.location = $(e.currentTarget).find('a').attr('href');
+        window.location = $(e.currentTarget).find('a').attr('href');
+
 //        }, 3000);
 
     });

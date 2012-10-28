@@ -1753,7 +1753,7 @@ button.big [class*=icon-],
   zoom: 1;
 }
 .tool-button:active [class*=icon-] {
-  background-image: url("../images/icons-white.png");
+  background-image: url("images/icons-white.png");
 }
 .tool-button img {
   width: 16px;
@@ -1890,7 +1890,7 @@ button.big [class*=icon-],
 }
 .toolbar a:active [class*=icon-],
 .toolbar button:active [class*=icon-] {
-  background-image: url("../images/icons-white.png");
+  background-image: url("images/icons-white.png");
 }
 .toolbar a img,
 .toolbar button img {
@@ -1906,7 +1906,7 @@ button.big [class*=icon-],
 }
 .toolbar a:active [class*=icon-],
 .toolbar button:active [class*=icon-] {
-  background-image: url("../images/icons-white.png");
+  background-image: url("images/icons-white.png");
 }
 .toolbar a {
   padding: 5px 0;
@@ -2052,7 +2052,7 @@ button.big [class*=icon-],
 }
 .toolbar-vertical a:active [class*=icon-],
 .toolbar-vertical button:active [class*=icon-] {
-  background-image: url("../images/icons-white.png");
+  background-image: url("images/icons-white.png");
 }
 .toolbar-vertical a img,
 .toolbar-vertical button img {
@@ -2068,7 +2068,7 @@ button.big [class*=icon-],
 }
 .toolbar-vertical a:active [class*=icon-],
 .toolbar-vertical button:active [class*=icon-] {
-  background-image: url("../images/icons-white.png");
+  background-image: url("images/icons-white.png");
 }
 .toolbar-vertical a {
   padding: 5px 0;
@@ -2565,7 +2565,7 @@ table.bordered tbody tr:last-child td {
   display: none;
   cursor: pointer;
   z-index: 10001;
-  background: url(../images/row24.png) no-repeat;
+  background: url(images/row24.png) no-repeat;
   background-size: cover;
   height: 24px;
   width: 24px;
@@ -2811,7 +2811,7 @@ table.bordered tbody tr:last-child td {
 .horizontal-menu  > ul li.pull a {
   width: 24px;
   height: 20px;
-  background: url(../images/pull24-dark.png) no-repeat;
+  background: url(images/pull24-dark.png) no-repeat;
   display: block;
   text-decoration: none;
   border: 0;
@@ -4126,7 +4126,7 @@ input[type=submit].big [class*=icon-] {
 input[type=button]:active [class*=icon-],
 input[type=reset]:active [class*=icon-],
 input[type=submit]:active [class*=icon-] {
-  background-image: url("../images/icons-white.png");
+  background-image: url("images/icons-white.png");
 }
 input[type=submit] {
   background-color: #008287;
@@ -4610,7 +4610,7 @@ pre code {
  * Icons.less
  */
 [class*=icon-] {
-  background-image: url("../images/icons.png");
+  background-image: url("images/icons.png");
   background-repeat: no-repeat;
   display: inline-block;
   float: left;
@@ -4624,12 +4624,12 @@ pre code {
   margin-right: 0;
 }
 [class*=icon-].white {
-  background-image: url("../images/icons-white.png") !important;
+  background-image: url("images/icons-white.png") !important;
 }
 button:active [class*=icon-],
 .button:active [class*=icon-],
 .tool-button:active [class*=icon-] {
-  background-image: url("../images/icons-white.png");
+  background-image: url("images/icons-white.png");
 }
 .icon-about {
   background-position: 0 0;

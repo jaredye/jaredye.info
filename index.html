@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="modern-responsive.css">
     <link rel="stylesheet" href="modern.css">
+    <script type="text/javascript" src="jq.js"></script>
     <style type="text/css">
         .page {
             width: 940px;
@@ -19,16 +20,21 @@
         ul {
             list-style: none;
         }
+
         .contacts li {
             margin-bottom: 10px;
+            cursor: pointer;
         }
 
+
     </style>
-    <link rel="stylesheet" href="theme-dark.css">
+    <!--<link rel="stylesheet" href="theme-dark.css">-->
 </head>
 <body>
 
+<div class="overlay">
 
+</div>
 <div class="page secondary">
     <div class="page-header">
         <div class="page-header-content">
@@ -45,19 +51,21 @@
                         <h2>咳咳，你是想：</h2>
                         <ul class="btns">
                             <li>
-                                <button href="" class="command-button bg-color-blue fg-color-white">
+                                <button class="command-button bg-color-blue fg-color-white">
                                     请吃饭呢
                                 </button>
                             </li>
 
 
                             <li>
-                                <button href="" class="command-button bg-color-red fg-color-white">
+                                <button href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=8MHFwMHHxcTHwsbBsIGB3pOfnQ"
+                                        class="command-button bg-color-red fg-color-white">
                                     还是请吃饭呢
                                 </button>
                             </li>
                             <li>
-                                <button href="" class="command-button bg-color-yellow fg-color-white">
+                                <button href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=8MHFwMHHxcTHwsbBsIGB3pOfnQ"
+                                        class="command-button bg-color-yellow fg-color-white">
                                     还是请吃饭呢
                                 </button>
                             </li>
@@ -67,21 +75,30 @@
                         <h2>
                             要不那先交个朋友
                         </h2>
+
+                        <h3>一口气全部加上</h3>
                         <ul class="contacts">
-                            <li class="command-button">
-                                <i class="icon-contact"></i>
-                                <a href="http://weibo.com/fockall" target="_blank">微博</a>
+                            <li class="command-button fg-color-white bg-color-grayDark">
+                                <a href="http://weibo.com/fockall" target="_blank" class="fg-color-white">微博</a>
                             </li>
-                            <li class="command-button">
-                                <a href="http://www.renren.com/264618996/profile" target="_blank">人人</a>
+                            <li class="command-button fg-color-white bg-color-grayDark">
+                                <a href="http://www.renren.com/264618996/profile" class="fg-color-white"
+                                   target="_blank">人人</a>
+                            </li>
+
+                            <li class="command-button fg-color-white bg-color-grayDark">
+                                <a href="https://www.facebook.com/yeshiming" class="fg-color-white" target="_blank">facebook</a>
                             </li>
                         </ul>
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>
 </div>
+
 <!--<ul>-->
 <!--<li>-->
 
@@ -93,6 +110,12 @@
 <!--</li>-->
 <!--</ul>-->
 <script type="text/javascript">
+    $("button").click(function () {
+        window.location = "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=8MHFwMHHxcTHwsbBsIGB3pOfnQ";
+    })
+    $(".contacts li").click(function (e) {
+        window.location = $(e.currentTarget).find('a').attr('href');
+    })
 </script>
 </body>
 </html>

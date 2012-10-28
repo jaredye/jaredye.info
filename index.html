@@ -117,7 +117,14 @@
 <!--</ul>-->
 <script type="text/javascript">
     $("button").click(function (e) {
-        $(e.currentTarget).text("谢谢O(∩_∩)O哈！，3秒后发请吃饭邮件");
+        var $tar = $(e.currentTarget);
+        $tar.text("谢谢O(∩_∩)O哈！，3秒后发请吃饭邮件");
+        setTimeout(function(){
+            $tar.text("谢谢O(∩_∩)O哈！，2秒后发请吃饭邮件");
+        }, 1000);
+        setTimeout(function(){
+            $tar.text("谢谢O(∩_∩)O哈！，1秒后发请吃饭邮件");
+        }, 2000);
         setTimeout(function(){
         window.location = "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=8MHFwMHHxcTHwsbBsIGB3pOfnQ";
         }, 3000);
